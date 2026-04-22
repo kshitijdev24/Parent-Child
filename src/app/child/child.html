@@ -1,0 +1,8 @@
+<h1>Child Component</h1>
+Message:{{recievedMessage}}
+
+<h2>Add Item</h2>
+
+Item Name <input type="text" #itemName/>
+<br>
+<button (click)="addItem(itemName.value)">add</button>
